@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react'
+import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -31,12 +31,13 @@ export default function Hero() {
           <div className="px-5 py-7 sm:px-8 sm:py-9">
             <p className="font-mono text-[13px] text-ink-soft/60 dark:text-dark-text/50">
               01
-              <span className="ml-4 text-accent">const</span> developer{' '}
-              <span className="text-ink-soft/60 dark:text-dark-text/50">=</span> {'{'}
+              <span className="ml-4 text-accent">const</span> developer{" "}
+              <span className="text-ink-soft/60 dark:text-dark-text/50">=</span>{" "}
+              {"{"}
             </p>
 
             <p className="pl-8 font-mono text-[13px] text-ink-soft/60 dark:text-dark-text/50 sm:pl-10">
-              <span className="text-amber">name</span>:{' '}
+              <span className="text-amber">name</span>:{" "}
               <span className="text-ink dark:text-dark-text font-display text-xl font-semibold tracking-tight sm:text-2xl">
                 &quot;Hamza Atef&quot;
               </span>
@@ -44,7 +45,7 @@ export default function Hero() {
             </p>
 
             <p className="pl-8 font-mono text-[13px] text-ink-soft/60 dark:text-dark-text/50 sm:pl-10">
-              <span className="text-amber">role</span>:{' '}
+              <span className="text-amber">role</span>:{" "}
               <span className="text-ink dark:text-dark-text">
                 &quot;Frontend Developer&quot;
               </span>
@@ -52,15 +53,15 @@ export default function Hero() {
             </p>
 
             <p className="pl-8 font-mono text-[13px] text-ink-soft/60 dark:text-dark-text/50 sm:pl-10">
-              <span className="text-amber">status</span>:{' '}
+              <span className="text-amber">status</span>:{" "}
               <span className="text-ink dark:text-dark-text">
-                &quot;CS Student, Suez — open to internships&quot;
+                &quot;CS Student, Suez — open to work&quot;
               </span>
               <span className="inline-block w-[2px] h-4 bg-accent align-middle ml-1 animate-blink" />
             </p>
 
             <p className="font-mono text-[13px] text-ink-soft/60 dark:text-dark-text/50">
-              05 {'}'}
+              05 {"}"}
             </p>
 
             <p className="mt-6 max-w-md text-[15px] leading-relaxed text-ink-soft dark:text-dark-text/80">
@@ -125,5 +126,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
