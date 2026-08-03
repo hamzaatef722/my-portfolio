@@ -1,3 +1,6 @@
+// Set `image` to a path like '/thumbnails/react-jobs.png' to show a screenshot
+// on the project card (put the actual file in public/thumbnails/).
+// Leave it `null` to fall back to the plain tag header — no image required.
 export const projects = [
   {
     id: "react-jobs",
@@ -8,7 +11,8 @@ export const projects = [
     stack: ["React", "React Router", "Context API", "Tailwind CSS", "REST API"],
     github: "https://github.com/hamzaatef722/jobs-frontend",
     demo: "https://react-jobs-inky.vercel.app/",
-    featured: true,
+    featured: false,
+    image: "/react-job-img.png",
   },
   {
     id: "world-wise",
@@ -19,7 +23,8 @@ export const projects = [
     stack: ["React", "React Router", "Context API", "REST API"],
     github: "https://github.com/hamzaatef722",
     demo: "https://world-wise-one-sage.vercel.app/",
-    featured: true,
+    featured: false,
+    image: "/world-wise-img.png",
   },
   {
     id: "react-quiz",
@@ -31,6 +36,7 @@ export const projects = [
     github: "https://github.com/hamzaatef722/React-Quiz",
     demo: "https://react-quiz-nine-teal.vercel.app/",
     featured: false,
+    image: "/react-quiz-img.png",
   },
   {
     id: "games-app",
@@ -42,6 +48,7 @@ export const projects = [
     github: "https://github.com/hamzaatef722/games-web",
     demo: "https://games-review.infinityfree.me/",
     featured: false,
+    image: "/game-review-img.png",
   },
   {
     id: "daniels-portfolio",
@@ -53,6 +60,7 @@ export const projects = [
     github: "https://github.com/hamzaatef722/daniels",
     demo: "https://daniels-eight-omega.vercel.app/",
     featured: false,
+    image: "/daniels-img.png",
   },
   {
     id: "morgana-yacht",
@@ -62,7 +70,8 @@ export const projects = [
       "A yacht-charter themed website focused on UI/UX, using CSS animations and a modern responsive layout.",
     stack: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/hamzaatef722/morgana-yacht",
-    demo: "https://alobaidiyachts.com/?",
+    demo: "https://alobaidiyachts.com/?lang=en",
     featured: false,
+    image: "/morgana-img.png",
   },
 ];
