@@ -9,7 +9,14 @@ export const skillGroups = [
   },
   {
     label: "react",
-    items: ["React.js", "React Router", "Context API", "React Hooks", "Redux"],
+    items: [
+      "React.js",
+      "React Router",
+      "Context API",
+      "React Hooks",
+      "Redux Toolkit",
+      "React Query",
+    ],
   },
   {
     label: "api_and_data",
