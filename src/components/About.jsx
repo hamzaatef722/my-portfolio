@@ -10,13 +10,14 @@ export default function About() {
 
       <div className="grid gap-10 md:grid-cols-[1.4fr_1fr]">
         <p className="text-[15px] leading-8 text-ink-soft dark:text-dark-text/80">
-          I&apos;m a Computer Science student and Frontend Developer with
-          hands-on experience building responsive, user-friendly web
-          applications using HTML5, CSS3, JavaScript (ES6+), React.js, Bootstrap
-          and Tailwind CSS. I have practical experience developing React
-          applications with React Router, Context API, Hooks and REST API
-          integration — turning static designs into interactive products, not
-          just following tutorials to the end.
+          I&apos;m a Computer Science student and Frontend Developer who builds
+          responsive, user-friendly web applications with React.js, Next.js and
+          Tailwind CSS, on top of a solid base of HTML5, CSS3, JavaScript (ES6+)
+          and Bootstrap. I work with Redux Toolkit, React Query, React Router,
+          Context API and Hooks to manage state and server data, and I use
+          Supabase for authentication and Postgres backends. My latest project
+          is a full stack hotel booking app built with the Next.js App Router,
+          Server Actions and Google sign-in.
           <br />
           <br />
           I&apos;m currently looking for a Frontend Developer internship or
@@ -27,7 +28,7 @@ export default function About() {
         <div className="space-y-4 rounded-lg border border-line dark:border-dark-line bg-white/60 dark:bg-dark-surface/60 p-5">
           <InfoRow label="location" value="Suez, Egypt" />
           <InfoRow label="focus" value="Frontend Development" />
-          <InfoRow label="status" value="Second-year CS student" />
+          <InfoRow label="status" value="Third-year CS student" />
           <InfoRow label="looking_for" value="Internship / Junior role" />
         </div>
       </div>

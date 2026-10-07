@@ -1,6 +1,8 @@
 import { Github, ExternalLink } from "lucide-react";
+import { useState } from "react";
 
 export default function ProjectCard({ project }) {
+  const [showFullDescription, setShowFullDescription] = useState(false);
   return (
     <article
       className="group flex h-full flex-col overflow-hidden rounded-lg border border-line dark:border-dark-line
@@ -50,8 +52,18 @@ export default function ProjectCard({ project }) {
         </h3>
 
         <p className="mt-2 flex-1 text-[14px] leading-relaxed text-ink-soft dark:text-dark-text/75">
-          {project.description}
+          {showFullDescription
+            ? project.description
+            : `${project.description.substring(0, 100)}...`}
         </p>
+        {project.description.length > 100 && (
+          <button
+            onClick={() => setShowFullDescription(!showFullDescription)}
+            className="mt-2 font-mono text-[11px] text-accent hover:underline"
+          >
+            {showFullDescription ? "Show less" : "Read more"}
+          </button>
+        )}
 
         <div className="mt-4 flex flex-wrap gap-1.5">
           {project.stack.map((tech) => (

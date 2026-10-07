@@ -11,6 +11,7 @@ export const skillGroups = [
     label: "react",
     items: [
       "React.js",
+      "Next.js",
       "React Router",
       "Context API",
       "React Hooks",
@@ -20,11 +21,15 @@ export const skillGroups = [
   },
   {
     label: "api_and_data",
-    items: ["REST APIs"],
+    items: ["REST APIs", "SUPABASE"],
   },
   {
     label: "concepts",
-    items: ["Object-Oriented Programming (OOP)"],
+    items: [
+      "Object-Oriented Programming (OOP)",
+      "Functional Programming",
+      "Data Structures and Algorithms",
+    ],
   },
   {
     label: "tools",

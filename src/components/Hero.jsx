@@ -65,9 +65,9 @@ export default function Hero() {
             </p>
 
             <p className="mt-6 max-w-md text-[15px] leading-relaxed text-ink-soft dark:text-dark-text/80">
-              I build responsive, user-friendly web apps with React, Tailwind
-              CSS and REST APIs — with a habit of shipping projects, not just
-              tutorials.
+              I build responsive, user-friendly web apps with React, Next.js and
+              Tailwind CSS and REST APIs — with a habit of shipping projects,
+              not just tutorials.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -90,7 +90,7 @@ export default function Hero() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="GitHub"
-                  className="flex h-9 w-9 items-center justify-center rounded-md text-ink-soft/70 dark:text-dark-text/60 hover:text-accent transition-colors"
+                  className="flex h-9 w-9 items-center justify-center rounded-md text-ink-soft/70 dark:text-dark-text/60 hover:text-accent transition-colors dark:hover:text-accent"
                 >
                   <Github size={17} />
                 </a>
@@ -99,14 +99,14 @@ export default function Hero() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
-                  className="flex h-9 w-9 items-center justify-center rounded-md text-ink-soft/70 dark:text-dark-text/60 hover:text-accent transition-colors"
+                  className="flex h-9 w-9 items-center justify-center rounded-md text-ink-soft/70 dark:text-dark-text/60 hover:text-accent transition-colors dark:hover:text-accent"
                 >
                   <Linkedin size={17} />
                 </a>
                 <a
                   href="mailto:hamza.a.gad95@gmail.com"
                   aria-label="Email"
-                  className="flex h-9 w-9 items-center justify-center rounded-md text-ink-soft/70 dark:text-dark-text/60 hover:text-accent transition-colors"
+                  className="flex h-9 w-9 items-center justify-center rounded-md text-ink-soft/70 dark:text-dark-text/60 hover:text-accent transition-colors dark:hover:text-accent"
                 >
                   <Mail size={17} />
                 </a>

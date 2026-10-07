@@ -3,24 +3,24 @@ import { skillGroups, softSkills } from "../data/skills.js";
 
 // Proficiency is based on hands-on use across Hamza's projects
 // (React Jobs, World Wise, React Quiz, Games App, Daniels Portfolio, Morgana Yacht).
-const proficiency = {
-  HTML5: 90,
-  CSS3: 88,
-  "JavaScript (ES6+)": 80,
-  "Responsive Web Design": 88,
-  Bootstrap: 75,
-  "Tailwind CSS": 85,
-  "React.js": 90,
-  "React Router": 80,
-  "React Query": 60,
-  "Redux Toolkit": 75,
-  "Context API": 85,
-  "React Hooks": 80,
-  "REST APIs": 75,
-  "Object-Oriented Programming (OOP)": 70,
-  Git: 75,
-  GitHub: 78,
-};
+// const proficiency = {
+//   HTML5: 90,
+//   CSS3: 88,
+//   "JavaScript (ES6+)": 80,
+//   "Responsive Web Design": 88,
+//   Bootstrap: 75,
+//   "Tailwind CSS": 85,
+//   "React.js": 90,
+//   "React Router": 80,
+//   "React Query": 60,
+//   "Redux Toolkit": 75,
+//   "Context API": 85,
+//   "React Hooks": 80,
+//   "REST APIs": 75,
+//   "Object-Oriented Programming (OOP)": 70,
+//   Git: 75,
+//   GitHub: 78,
+// };
 
 export default function Skills() {
   return (
@@ -39,18 +39,18 @@ export default function Skills() {
             <p className="font-mono text-[11px] text-accent">{group.label}</p>
             <ul className="mt-4 space-y-3.5">
               {group.items.map((item) => {
-                const level = proficiency[item] ?? 70;
+                // const level = proficiency[item] ?? 70;
                 return (
                   <li key={item}>
                     <div className="flex items-baseline justify-between gap-2">
                       <span className="text-[13px] text-ink dark:text-dark-text">
                         {item}
                       </span>
-                      <span className="font-mono text-[11px] text-ink-soft/50 dark:text-dark-text/40">
+                      {/* <span className="font-mono text-[11px] text-ink-soft/50 dark:text-dark-text/40">
                         {level}%
-                      </span>
+                      </span> */}
                     </div>
-                    <div
+                    {/* <div
                       className="mt-1.5 h-1.5 w-full overflow-hidden rounded-full bg-line/60 dark:bg-dark-line/60"
                       role="progressbar"
                       aria-label={`${item} proficiency`}
@@ -62,7 +62,7 @@ export default function Skills() {
                         className="h-full rounded-full bg-accent transition-[width] duration-700 ease-out"
                         style={{ width: `${level}%` }}
                       />
-                    </div>
+                    </div> */}
                   </li>
                 );
               })}
